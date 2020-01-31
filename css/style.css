@@ -83,6 +83,11 @@ a {
   font-weight: 600;
 }
 
+.dropdown-menu.show {
+  width: 100%;
+  font-size: 2rem;
+}
+
 .btn-cliente {
   width: 100%;
   background: #80b34c;
@@ -106,6 +111,12 @@ a {
   background: #2c502d;
   border-color: #2c502d;
   font-weight: 700;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #a0c975;
+  border-color: #a0c975;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
