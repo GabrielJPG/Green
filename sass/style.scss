@@ -88,6 +88,10 @@ a {
     border-color: #2c502d;
 }
 
+.btn:focus {
+    box-shadow: none !important;
+}
+
 .btn-save {
     position: fixed;
     bottom: 0;
@@ -168,4 +172,61 @@ a {
         height: 8rem;
     }
     &--1 {}
+}
+
+.item-detalles {
+    background: white;
+    box-shadow: 0px 1px 6px 0px #d0d0d0;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 12rem 1fr;
+    &__title {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: #2c502d;
+        margin-top: 0.5rem;
+    }
+    &__info {
+        width: 12rem;
+        background: #a0c975;
+        border-radius: 1rem 1rem 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 600;
+        position: relative;
+        bottom: -20px;
+        padding: 0rem;
+    }
+    &__image {
+        background-image: url(../img/botella.png);
+        background-size: cover;
+        background-position: center;
+        width: 10rem;
+        height: 8rem;
+        grid-row: 1/-1;
+    }
+}
+
+.item-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    justify-content: space-around;
+    &__amount {
+        background: #a0c975;
+        padding: 1rem 3rem;
+        border-radius: 4rem;
+        font-weight: 700;
+        color: white;
+    }
 }
