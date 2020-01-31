@@ -1,0 +1,179 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* HEADER */
+.header {
+  background: #A0C975;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  width: 8rem;
+}
+
+.header-logo {
+  padding: 2rem;
+}
+
+.header-account {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background: white;
+  font-size: 1.5rem;
+}
+
+.header-account {
+  padding: 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.header-account__icon {
+  font-size: 4.4rem;
+  color: #2C502D;
+  margin-right: 1rem;
+}
+
+.header-account__click {
+  color: #636363;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-cliente {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #2C502D;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.section-cliente .label {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.btn-cliente {
+  width: 100%;
+  background: #80b34c;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #A0C975;
+  border-color: #2c502d;
+}
+
+.btn-save {
+  position: fixed;
+  bottom: 0;
+  padding: 2rem 0rem;
+  font-size: 4rem;
+  background: #2c502d;
+  font-weight: 700;
+}
+
+.section-main {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.item {
+  background: white;
+  -webkit-box-shadow: 0px 1px 6px 0px #d0d0d0;
+          box-shadow: 0px 1px 6px 0px #d0d0d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 1rem;
+  position: relative;
+}
+
+.item__info {
+  width: 4rem;
+  height: 4rem;
+  background: #A0C975;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.item__title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #2c502d;
+  margin-top: 0.5rem;
+}
+
+.item__image {
+  background-image: url(../img/botella.png);
+  background-size: cover;
+  background-position: center;
+  width: 10rem;
+  height: 8rem;
+}
+/*# sourceMappingURL=style.css.map */
