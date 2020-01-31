@@ -104,7 +104,16 @@ a {
   padding: 2rem 0rem;
   font-size: 4rem;
   background: #2c502d;
+  border-color: #2c502d;
   font-weight: 700;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #80b34c;
+  border-color: #80b34c;
 }
 
 .section-main {
