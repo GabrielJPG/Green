@@ -96,6 +96,7 @@ a {
     background: #2c502d;
     border-color: #2c502d;
     font-weight: 700;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .btn-primary:hover {
@@ -117,6 +118,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10rem;
+}
+
+.cliente-title {
+    display: block;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 600;
 }
 
 .item {
